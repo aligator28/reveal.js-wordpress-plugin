@@ -1,1 +1,4 @@
-"# reveal.js-wordpress-plugin" 
+Documentation included (not completed yet).
+See /documentation/index.html
+
+
