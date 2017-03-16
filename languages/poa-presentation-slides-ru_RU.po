@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Presentation Slides Plugin\n"
+"POT-Creation-Date: 2017-03-13 21:24+0200\n"
+"PO-Revision-Date: 2017-03-13 22:24+0200\n"
+"Last-Translator: oleg <pluta.pluta.pluta@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: poa-presentation-slides.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/custom-meta-box-slides.php:26
+msgid ""
+"Option works if enabled in Theme Options->Advaced Settings->Enable Autoslide"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:30
+msgid "Set Autoslide Time"
+msgstr "Установить время автослайда"
+
+#: inc/custom-meta-box-slides.php:35
+msgid " sec"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:51
+msgid "Transition:"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:55
+msgid "Slide Transition"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:60
+msgid "No transition"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:61 poa-setup.php:62
+msgid "Slide"
+msgstr "Слайд"
+
+#: inc/custom-meta-box-slides.php:62
+msgid "Fade"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:63
+msgid "Concave"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:64
+msgid "Convex"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:65
+msgid "Zoom"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:70
+msgid "Select an Item"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:75
+msgid "Speaker Notes:"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:78
+msgid "Enter Speaker Notes here (HTML allowed)"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:79
+msgid "You can add any notes for each slide"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:88
+msgid "Background Settings:"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:125
+msgid "Slide Background Color"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:129
+msgid "Select color"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:136
+msgid "Full Background Image"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:140
+msgid "Select image for background"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:147
+msgid "Full Background Video"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:151
+msgid "Upload video for background"
+msgstr ""
+
+#: inc/metabox/inc/clone.php:95
+msgid "+ Add more"
+msgstr ""
+
+#: inc/metabox/inc/core.php:42
+msgid "Documentation"
+msgstr ""
+
+#: inc/metabox/inc/core.php:43
+msgid "Extensions"
+msgstr ""
+
+#: inc/metabox/inc/fields/autocomplete.php:15
+#: inc/metabox/inc/fields/autocomplete.php:74
+#: inc/metabox/inc/fields/autocomplete.php:89
+msgid "Delete"
+msgstr ""
+
+#: inc/metabox/inc/fields/button.php:27
+msgid "Click me"
+msgstr ""
+
+#: inc/metabox/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: inc/metabox/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: inc/metabox/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: inc/metabox/inc/fields/file-input.php:39
+#: inc/metabox/inc/fields/select.php:84
+msgid "Select"
+msgstr ""
+
+#: inc/metabox/inc/fields/file-input.php:41
+msgid "Remove"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:17
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:73
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:85
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:86
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:150
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: inc/metabox/inc/fields/file.php:151
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: inc/metabox/inc/fields/map.php:57
+msgid "Find Address"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:17
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:18
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:19
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:20
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:21
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:22
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:23
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:26
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:27
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: inc/metabox/inc/fields/media.php:28
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: inc/metabox/inc/fields/oembed.php:60
+msgid "Embed HTML not available."
+msgstr ""
+
+#: inc/metabox/inc/fields/oembed.php:75
+msgid "Preview"
+msgstr ""
+
+#: inc/metabox/inc/fields/post.php:33
+msgid "Select a post"
+msgstr ""
+
+#: inc/metabox/inc/fields/post.php:36 inc/metabox/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: inc/metabox/inc/fields/select-advanced.php:41
+msgid "Select an item"
+msgstr ""
+
+#: inc/metabox/inc/fields/select.php:84
+msgid "All"
+msgstr ""
+
+#: inc/metabox/inc/fields/select.php:84
+msgid "None"
+msgstr ""
+
+#: inc/metabox/inc/fields/taxonomy.php:48
+msgid "Select a term"
+msgstr ""
+
+#: inc/metabox/inc/fields/thickbox-image.php:51
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: inc/metabox/inc/fields/user.php:33
+msgid "Select an user"
+msgstr ""
+
+#: inc/metabox/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: poa-settings.php:69
+msgid ""
+"Option works only if autoslide enabled. It creates continuous loop of slides."
+msgstr ""
+
+#: poa-settings.php:82
+msgid "Background Text when slides change."
+msgstr ""
+
+#: poa-settings.php:136
+msgid "Transition between slides (same transition for all slides)"
+msgstr ""
+
+#: poa-settings.php:150
+msgid "No main navigation"
+msgstr ""
+
+#: poa-settings.php:156
+msgid "Select your main navigation menu to display for slides page"
+msgstr ""
+
+#: poa-setup.php:61
+msgid "Slides"
+msgstr "Слайды"
+
+#: poa-setup.php:63 poa-setup.php:66
+msgid "New Slide"
+msgstr "Новый Слайд"
+
+#: poa-setup.php:64
+msgid "Add New Slide"
+msgstr ""
+
+#: poa-setup.php:65
+msgid "Edit Slide"
+msgstr ""
+
+#: poa-setup.php:67
+msgid "View Slide"
+msgstr ""
+
+#: poa-setup.php:68
+msgid "Search Slides"
+msgstr ""
+
+#: poa-setup.php:69
+msgid "No Slides Found"
+msgstr ""
+
+#: poa-setup.php:70
+msgid "No Slides found in Trash"
+msgstr ""
+
+#: templates/backup.php:21 templates/main.php:94
+msgid "Title"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Presentation Slides Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://someuri"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create custom Presentational Slides with possibility to manage and create "
+"Speaker Notes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pliuta Oleh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://author"
+msgstr ""
+
+#: inc/custom-meta-box-slides.php:9
+msgid "Slide Settings:"
+msgstr "Настройки слайдов"
+
+#: inc/custom-meta-box-slides.php:14
+msgid "Use this slide in slideshow"
+msgstr "Использовать этот слайд в слайдшоу"
+
+#: inc/custom-meta-box-slides.php:15
+msgid "If not checked this slide won't display on frontend slideshow"
+msgstr "Если не отмечено, то данный слайд не будет отображаться на сайте"
+
+#: inc/custom-meta-box-slides.php:18
+msgid "Use"
+msgstr "Использовать"
+
+#: inc/custom-meta-box-slides.php:25
+msgid "Autoslide Time"
+msgstr "Время автоматического перелистывания слайда"
+
+#: poa-settings.php:56
+msgid ""
+"By default autoslide time is 15 seconds. You can set time for each slide in "
+"Dashboard -> Slides -> Edit."
+msgstr ""
+"По умолчанию время автослайда - 15сек. Вы можете установить время каждого "
+"отдельного слайда в Консоль->Слайды->Редактировать"

@@ -1,0 +1,84 @@
+/*li.current a[href="options-general.php?page=ps_settings"],
+#menu-posts-slides,
+#menu-posts-slides .wp-submenu {
+  background-color: #FEB403;
+  color: #fff;
+  transition: background-color .5s;
+}
+li.current:hover a[href="options-general.php?page=ps_settings"] {
+  background-color: #fafafa !important;
+  color: #FEB403 !important;
+}*/
+
+#menu-posts-slides .wp-submenu a {
+  color: #fff;
+}
+#menu-posts-slides .wp-submenu li:hover {
+  background-color: #333;
+}
+
+.setting-textfield {
+	width: 70%;
+}
+#ps_settings_form .form-table tr:nth-child(odd) {
+	background-color: #FFF0CC;
+}
+#ps_settings_form .form-table tr:nth-child(even) {
+	background-color: #fafafa;
+}
+.checkbox-button .checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox-button .checkbox + label {
+  cursor: pointer;
+}
+
+
+.checkbox-button .checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-button .checkbox:not(checked) + label {
+  position: relative; 
+  padding: 0 0 0 60px; 
+}
+.checkbox-button .checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox-button .checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; 
+}
+.checkbox-button .checkbox:checked + label:before {
+  background: darkred;
+}
+.checkbox-button .checkbox:checked + label:after {
+  left: 26px;
+}
+.checkbox-button .checkbox:focus + label:before {
+  box-shadow: 0 0 1px 2px rgba(128,0,0,.5);
+}
+
+#position-nav {
+  display: none;
+}
+

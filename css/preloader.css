@@ -1,0 +1,93 @@
+
+.cssload-wrap {
+	display: flex;
+		display: -o-flex;
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+
+	justify-content: center;
+		-o-justify-content: center;
+		-ms-justify-content: center;
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+
+	align-items: center;
+		-o-align-items: center;
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		-moz-align-items: center;
+	perspective: 240px;
+		-o-perspective: 240px;
+		-ms-perspective: 240px;
+		-webkit-perspective: 240px;
+		-moz-perspective: 240px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.cssload-cssload-spinner {
+	position: relative;
+	transform-style: preserve-3d;
+		-o-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+	animation: cssload-wobble 6.98s ease-in-out infinite;
+		-o-animation: cssload-wobble 6.98s ease-in-out infinite;
+		-ms-animation: cssload-wobble 6.98s ease-in-out infinite;
+		-webkit-animation: cssload-wobble 6.98s ease-in-out infinite;
+		-moz-animation: cssload-wobble 6.98s ease-in-out infinite;
+}
+.cssload-cssload-spinner:before, .cssload-cssload-spinner:after {
+	display: block;
+	content: "";
+	width: 54px;
+	height: 54px;
+	border: 27px solid;
+	border-radius: 50%;
+	animation: cssload-spin 2.63s ease-in-out infinite both reverse;
+		-o-animation: cssload-spin 2.63s ease-in-out infinite both reverse;
+		-ms-animation: cssload-spin 2.63s ease-in-out infinite both reverse;
+		-webkit-animation: cssload-spin 2.63s ease-in-out infinite both reverse;
+		-moz-animation: cssload-spin 2.63s ease-in-out infinite both reverse;
+}
+.cssload-cssload-spinner:before {
+	border-color: rgb(255,75,20);
+	position: absolute;
+}
+.cssload-cssload-spinner:after {
+	border-color: black;
+	animation-delay: -1.31s;
+		-o-animation-delay: -1.31s;
+		-ms-animation-delay: -1.31s;
+		-webkit-animation-delay: -1.31s;
+		-moz-animation-delay: -1.31s;
+}
+
+
+
+
+
+@keyframes cssload-wobble {
+	0%, 100% {
+		transform: rotateX(8.75deg) rotateY(35deg);
+	}
+	50% {
+		transform: rotateX(35deg) rotateY(-35deg) rotate(180deg);
+	}
+}
+
+
+@keyframes cssload-spin {
+	0%, 100% {
+		transform: translateZ(30px) rotateX(14deg);
+	}
+	33% {
+		transform: translateZ(-30px) scale(0.4);
+	}
+	66% {
+		transform: translateZ(-30px);
+	}
+}
+
