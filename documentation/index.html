@@ -26,10 +26,9 @@
 						</ul>
 					</li>
 					<li><a class="menu-link" href="#GettingStarted">Getting Started</a></li>
-					<li><a class="menu-link" href="#Installation">plugin Installation</a></li>
+					<li><a class="menu-link" href="#Installation">Plugin Installation</a></li>
 					<li><a class="menu-link" href="#AfterActivation">After Activation</a></li>
-					<li><a class="menu-link" href="#pluginCustomizer">plugin Customizer</a></li>
-					<li><a class="menu-link" href="#pluginOptions">plugin Options</a></li>
+					<li><a class="menu-link" href="#pluginOptions">Settins &rightarrow; Slides</a></li>
 					<li><a class="menu-link" href="#FrontPageCustomization">How to add navigation for slides</a></li>
 					<li class="front_page_li"><a href="#fullscreen_mode">Keyboard Shortcuts &downarrow;</a>
 						<ul class="front-page">
@@ -47,14 +46,14 @@
 	<section id="Menu">
 		<header>
 			<h1>Reveal Presentation Slides Plugin <span>Help Guide</span></h1>
-			<p>Set-up & general guide to help you get the most out of your new WordPress plugin. If you are still having trouble after reading this guide, <a href="http://vinograd-gergel.com.ua/contact-team">contact our help team</a>.</p>
+			<p>Set-up & general guide to help you get the most out of your new WordPress plugin. If you are still having trouble after reading this guide, <a href="mailto:phpwork@i.ua">contact our help team</a>.</p>
 		</header>
 
-		<nav>
+		<!-- <nav>
 			<a href="http://vinograd-gergel.com.ua/demo" target="blank">Live Demo</a>
 			<a href="http://vinograd-gergel.com.ua/changelog">Changelog</a>
 			<a href="#">Buy Reveal Presentation Slides plugin</a>
-		</nav>
+		</nav> -->
 	</section>
 
 	<section id="MainFeature">
@@ -144,9 +143,10 @@
 			<li>
 				Create as many slides of each category as you need.
 			</li>
-			<li>
-				The best way to add navigation menu items for Slides is to group them in categories. For instance, let's call it "Slides".
+			<li id="nav_menu_slides">
+				The best way to add navigation menu items for Slides is to group them in categories. For instance, let's call it "Mathematics".
 				<p>Go to Dashboard &rightarrow; Appearance &rightarrow; Menus, click Categories &rightarrow; View All on the left, check any category you need and click Add to Menu.</p>
+				<p>Save Menu.</p>
 				<p><img src="images/menu_categories.png" alt="menu categories"></p>
 			</li>
 			<li>
@@ -205,32 +205,25 @@
 
 		<h2>Reveal Presentation plugin</h2>
 				
-		<p>Reveal Presentation plugin has many more customization options including stylistic color pickers, custom front page content and other add-ons. And in addition to these fantastic features, you'll also receive dashboard one-click updates and access to world-class plugin support by our team of in-house professional WordPress developers.</p>
-
-		<blockquote>Please note that support is only offered for Reveal Presentation plugin. If you already have a Pro license and have any questions that are beyond the scope of this document, feel free to ask us via our dedicated <a href="#" target="blank">help center</a>.</blockquote>
-
-		<h2>plugin Support</h2>
-		<p>If you have a problem with the plugin or found a bug, please let us know via our official <a href="https://pluginbeans.com/support">Help Center</a>. We take pride in our customer support and we will do what we can to assist you. If you are experiencing a plugin issue, please first turn off all third party plugins to see if the problem persists.</p>
-		<blockquote>Please note that support is only offered for Reveal Presentation plugin. If you have any questions that are beyond the scope of this document, feel free to ask us via our dedicated <a href="https://pluginbeans.com/support" target="blank">help center</a>.</blockquote>
+		
+		
+		<h2>Plugin Support</h2>
+		<p>If you have a problem with the plugin or found a bug, please let us know via email <strong>phpwork@i.ua</strong>. We take pride in our customer support and we will do what we can to assist you. If you are experiencing a plugin issue, please first turn off all third party plugins to see if the problem persists.</p>
+		<blockquote>Please note that support is only offered for Reveal Presentation plugin. </blockquote>
 	</section>	
 
 	<section id="Installation">
 
-		<h1><a href="#Installation">plugin Installation</a><small><a href="#html">Back to Top</a></small></h1>
-
-		<h2>WordPress Upload Installation</h2>
-		<p>To upload through your Dashboard, select “Appearance” and then “plugins”. Next, select the “Add New” tab at the top of the page and then select the “Upload” link, right above the search field. Choose your file and select “Install Now”. Once the plugin is fully uploaded and installed, click “Activate” to activate the WordPress plugin.</p>
-		<blockquote>The plugin files will be stored on your server in the <code>wp-content/plugins</code> location.</blockquote>
-		<p>When uploading your plugin with the installer, please ensure you are uploading the plugin .zip file, not the entire package you downloaded. In this case, you will be uploading revealpresentation.zip.</p>
+		<h1><a href="#Installation">Plugin Installation</a><small><a href="#html">Back to Top</a></small></h1>
 
 		<h2>FTP Upload Installation</h2>
-		<p>To manually upload your new WordPress plugin, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>zipped</b> Revealpresentation folder into the: wp-content/plugins folder. And inside this folder extract .zip file. Below example of some Hosting provider File Manager:
+		<p>For now only manual installation is possible. First clone or download plugin from <a href="https://github.com/aligator28/reveal.js-wordpress-plugin"><strong>Github</strong></a></strong></p>
+		<p>Then manually upload your new WordPress plugin, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>zipped</b> Revealpresentation folder into the: wp-content/plugins folder. And inside this folder extract .zip file. Below example of some Hosting provider File Manager:
 		<img src="images/ftp_upload.png" alt="ftp upload">
 		</p>
-		<p>Once uploaded, activate the plugin by heading to the “plugins” menu in the WordPress Dashboard. Locate the Reveal Presentation plugin and hit “Activate”.</p>
+		<p>Once uploaded, activate the plugin by heading to the “Plugins” menu in the WordPress Dashboard. Locate the Reveal Presentation plugin and hit “Activate”.</p>
 
-		<p>After successful installation in your Dashboard  &rightarrow; Appearance  &rightarrow; plugins you should see a new RevealPresentation plugin appeared</p>
-		<p><img src="images/after_install.jpg" alt="after installation" class="preview-images"></p>	
+		<p>After successful installation in your Dashboard  you should see a new Reveal Presentation plugin appeared</p>
 	</section>
 	
 	<section id="AfterActivation">
@@ -242,44 +235,8 @@
 				<p>Press "Begin installing plugins" and install all required plugins</p>
 				<p><img src="images/req_plugins2.jpg" alt="required plugins install"></p>
 				<blockquote>Now reload page! (Press F5)</blockquote>
-				<p>You'll notice that new menu items appeared "Slides", "Front Page Features", "Front Page Overview Slides", "Front Page FAQs" and in Appearance "plugin Options"</p>
+				<p>You'll notice that new menu items appeared "Slides", and in Settings "Slides"</p>
 				<p>Later you'll know what it is</p>
-				<p><img src="images/new_items.png" alt="new items"></p>
-			</li>
-			<li>Now you can visit site. <p><img src="images/visit_site.png" alt="visit site"></p>
-				<p>But nothing special you can see, for a while :). Page looks like this:</p>
-				<p><img src="images/nothing_special.png" alt="first visit on site"></p>
-				<p><strong>Let's make some setup.</strong></p> 
-			</li>
-			<li>
-				<p>First go to Pages  &rightarrow; Add New. Call it "Front" and just "Publish".</p>
-				<p><img src="images/update.png" alt="update"></p>
-			</li>
-			<li>
-				<p>Next Pages  &rightarrow; Add New. Call next page "Blog" or something else - this would be your blog page. Press "Publish".</p>
-				<p><img src="images/update.png" alt="update"></p>
-			</li>
-			<li>
-				<p>Go to Settings  &rightarrow; Reading Settings  &rightarrow; Front page displays  &rightarrow; A static page (select below)  &rightarrow; "Front" and Posts page as "Blog". Save Changes.</p>
-				<p><img src="images/front.png" alt="front page"></p>
-			</li>
-			<li>
-				Just go to Pages. Press "Pages" in Dashboard and you should see that "Front" is now "Front - Front Page", and "Blog" now is "Blog - Blog Page".
-				<p><img src="images/now_front.png" alt="front and blog setup"></p>
-			</li>
-			<li>Now if you visit your front, you should see such new front page, but with no info.
-			<p><img src="images/front_after.png" alt="front page after"></p>
-			</li>
-			<li>Let's make some setup for front page.</li>
-			<li>
-				<p>Next step is to create Main Navigation (if not created yet)</p>
-				<p>Go to Appearance  &rightarrow; Menus and create new navigation and check "Display location" like "Primary Menu" and Save Menu</p>
-				<p><img src="images/menu.png" alt="menu"></p>
-			</li>
-			<li>
-				To add link to Slides Custom Post Type you should do some additional setup.
-				Appearance &rightarrow; Menus &rightarrow; Screen Options and check Slides.
-				<p><img src="images/slides_for_menu.png" alt="slides for menu"></p>
 			</li>
 			<li>
 				Now add first slide. Go to Slides &rightarrow; New Slide and create first slide: you can name it as you like. Press "Publish".
@@ -299,74 +256,32 @@
 			</li>
 			<li>
 				<p>Congratulation! Your initial installation complete.</p>
-				<blockquote>Next you should configurate front page. Instructions are <a href="#FrontPageCustomization">HERE</a></blockquote>
-				<p>Now you can visit your site.</p>
-				<p><img src="images/visit.png" alt="visit site"></p>
 			</li>
 		</ol>
 	</section>
 
-	<section id="pluginCustomizer">
-		<h1><a href="#pluginCustomizer">plugin Customizer</a><small><a href="#html">Back to Top</a></small></h1>
-		<blockquote>Time to customize your plugin!</blockquote>
-		<ol>
-			<li><p>Add your contacts information. Go to Appearance  &rightarrow; Customizing  &rightarrow; Contact Details and insert Address, Telephone number and Email.</p>
-			<p><img src="images/contact.png" alt="contacts"></p></li>
-			<li>
-				<p>Add your preffered color scheme in Appearance  &rightarrow; Customizing  &rightarrow; plugin Skin</p>
-				<p>You can change Background Color for all page ("Main Background Color"), Accent Color, Color for some sections, Navigation Background Color and Image.</p>
-				<blockquote>Try to change that options!</blockquote>
-				<blockquote>NOTE! If you want to set background image for Navigation, set Header Background Color transparency to 0.
-				<p>When you remove Header Background Image, don't forget to set some transparence more than 0.5.</p>
-				<img src="images/customizer_nav.png" alt="customizer navigation"></blockquote>
-				<p><img src="images/colors.png" alt="colors"></p>
-			</li>
-			<li>On Customizer page you can also set Site Identity: Site Title, Tagline and Site Icon.
-			<p>Go to Dashboard &rightarrow; Appearance &rightarrow; Customize &rightarrow; Site Identity.</p>
-			</li>
-		</ol>
-	</section>
 	
 	<section id="pluginOptions">
-		<h1><a href="#pluginOptions">plugin Options</a><small><a href="#html">Back to Top</a></small></h1>
-		<p>Reveal Presentation plugin comes with some additional options, which can be found on Dashboard &rightarrow; Appearance &rightarrow; plugin Options.</p>
+		<h1><a href="#pluginOptions">Settings &rightarrow; Slides</a><small><a href="#html">Back to Top</a></small></h1>
+		<p>Reveal Presentation plugin comes with some additional options, which can be found on Dashboard &rightarrow; Settings &rightarrow; Slides.</p>
 		<ol>
 			<li>
-				<h3>Navigation Settings</h3>
-				<p>In Appearance  &rightarrow; plugin Options  &rightarrow; Navigation Settings you can set Your logo image, Text for logo and switch main navigation for different modes</p>
-				<p><img src="images/always.png" alt="top navigation"></p>
-				<p>If "Always display top navigation" is ON Main Navigation is always displayed on Front Page</p>
-				<p><img src="images/navigation.png" alt="navigation"></p>
-				<p>If "Always display top navigation" is OFF <p><img src="images/off.png" alt="off"></p> Main Navigation is displayed by clicking on button</p>
-				<p><img src="images/hidden_nav.png" alt="navigation"></p>
+				<h3>Slides Settings</h3>
+				<p>"Enable Autoslide" If enabled, slides change automatically every 15 seconds, but you can change time editing every slide. Go to Slides &rightarrow;Edit Slide.</p>
 			</li>
 			<li>
-				<h3>Slides Settings</h3>
-				<p>"Enable Presentation Slides on Front Page" if enabled, Presentation Slides show on Front Page.</p>
-				<p>When you enable Presentation Slides on Front Page select list appears with categories to choose. Choose only one category of slides to display on front page.
-				<img src="images/category_for_front_slides.png" alt="category"></p>
-				<p>"Enable Autoslide" If enabled, slides change automatically every 15 seconds, but you can change time editing every slide. Go to Slides &rightarrow;Edit Slide.</p>
-				<p>"Autoslide Time" - Set time of changing slides (You can redeclare it on every post Go to Slides &rightarrow;Edit).</p>
-				<p>"Enable Loop Presentation" - If enabled, after last slide goes first (click left arrow or right arrow or swipe left - right on mobile devices).</p>
+				<p>"Enable Slides continous loop" - If enabled, after last slide goes first (click left arrow or right arrow or swipe left - right on mobile devices).</p>
 				<p><img src="images/slides_settings.png" alt="slides settings"></p>
 			</li>
 			<li>
-				<h3>Preloader Settings</h3>
-				<p>Just set text for page preloader.</p>
+				Background Title Text - Background Text when slides change. It could be you product name, webpage name or else.
 			</li>
 			<li>
-				<h3>Blog Settings</h3>
-				<p>Set Blog page background image</p>
-			</li>
-			<li>
-				<h3>Social Media Settings</h3>
-				<p>Next Tab is "Social Media Settings". Set links for your social media.</p>
-			</li>
-			<li>
-				<h3>App Store and Google Play Settings</h3>
-				<p>"App Store badge url" You can generate it <a target="_blank" href="http://linkmaker.itunes.apple.com/">HERE</a>, or additional information <a target="_blank" href="https://developer.apple.com/app-store/marketing/guidelines/">HERE</a><br> EXAMPLE for Angry Birds Game is "https://itunes.apple.com/us/app/angry-birds-2/id880047117?mt=8"</p>
-				<p>"Google Play badge" - Full information <a target="_blank" href="https://play.google.com/intl/en_gb/badges/">HERE</a><br> EXAMPLE for Tiny Flashlight App is "https://play.google.com/store/apps/details?id=com.devuni.flashlight&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"</p>
-				<p>"Preloader Settings" - just text for preloader</p>				
+				Select your website main navigation to display on Slides page. By default no navigation appears on Slides page. But you can set you navigation menu for Slides page. 
+				<blockquote>Note! First create navigation for your slides or use any existed navigation menus for you slides.</blockquote>
+				<p>It is recommended to create new items in main navigation for your slides. <a href="#nav_menu_slides">How to create navigation for slides.</a> After you've created navigation or added new item (category for slides) to your existed navigation, in Settings &rightarrow; Slides appears new item in selected list. This list is navigation location name under title "Select your website main navigation to display on Slides page".</p>
+				<p>Select your navigation location name (location for menus is below your menu on "Menu Settins" - <i>"Display location"</i>).</p>
+				<p>Save Changes.</p>
 			</li>
 		</ol>
 	</section>

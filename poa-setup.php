@@ -102,10 +102,20 @@ function poa_admin_stylesheet() {
 }
 add_action('admin_head', 'poa_admin_stylesheet' );
 
-function poa_register_nav_menu() {
-	register_nav_menu( 'slidesmenu', 'Slides Menu' );
-}
-add_action( 'after_setup_theme', 'poa_register_nav_menu' );
+
+// function poa_register_nav_menu() {
+// 	register_nav_menu( 'slidesmenu', 'Slides Menu' );
+// }
+// add_action( 'after_setup_theme', 'poa_register_nav_menu' );
+
+
+
+
+
+
+
+
+
 
 
 

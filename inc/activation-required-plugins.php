@@ -86,7 +86,7 @@ function poa_register_required_plugins() {
 
     );
 
-    tgmpa( $plugins_to_istall, $config );
+    poa_tgmpa( $plugins_to_istall, $config );
 
 
 
